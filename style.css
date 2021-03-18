@@ -75,8 +75,43 @@ nav ul li a:hover{
     display: block;
     
 }
+.ruta1{
 
+     display: flex;
+    
+    width: 100%;
+    height:100%;
+    background-color:aquamarine;
+    flex-wrap: nowrap;
+    text-align: center; 
 
+}
+.caminos{
+    width: 35%;
+    box-sizing: border-box;
+}
+.caminos img{
+    width: 80%;
+    height: 90%;
+}
+.rutab{
+    font-size: 60px;
+    position: absolute;
+    top: 200px;
+    color: bisque;
+    right: 400px;
+    margin: 30px;
+}
+.caminos a{
+    position: relative;
+    float: inline-end;
+}
+.parrafo{
+    font-size: 30px;
+    text-align: justify;
+    margin: 20px;
+    width: 30%;
+}
 
 
 
@@ -110,6 +145,9 @@ h2{
     text-align: center;
     font-size: 35px;
     color: cadetblue;
+    height: 40px;
+    text-transform: uppercase;
+    padding-top: 7px;
 }
 h3{  
     color: #1B5E20;
